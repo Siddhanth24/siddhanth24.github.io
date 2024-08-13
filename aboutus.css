@@ -1,0 +1,490 @@
+body {
+    font-family: 'Poppins';
+}
+.background1
+{
+    background: url("images/aboutus.jpg");
+    background-size: cover;
+}
+.v130_240 {/*first page-Arrow marks*/
+    width: 252px;
+    height: 45px;
+    background: url("../images/v130_240.png");
+    background-position: center center;
+    top:-330px;
+    left:100px;
+    position: relative;
+  }
+  .v130_241 {/*first page-Arrow marks*/
+    width: 252px;
+    height: 45px;
+    top:-366px;
+    left:830px;
+    background: url("../images/v130_241.png");
+    background-position: center center;
+    position: relative;
+
+  }
+  .v1_51 {/*first page- best quality*/
+    width: 848px;
+    color: rgba(255,255,255,1);
+    position: relative;
+    background-position: center center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: Bold;
+
+  }
+
+
+  .v1_55 {/*first page- FROM FARM TO YOU*/
+    width: 622px;
+    color: rgba(255,226,164,1);
+    position: relative;
+    font-family: Poppins;
+    font-weight: Bold;
+    font-size: 32px;
+  }
+  .v1_59 {
+    display: flex;
+    max-width: 900px;
+    color:#D1DBB3;
+    font-family: 'Poppins', sans-serif;
+    font-style: BOLD;
+    padding-left: 130px;   
+    text-align: center;
+    font-size: 18px ;
+}
+header {
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-family: 'Sacramento', cursive;
+    color: #fff;
+    font-size: 37px;
+}
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #f7c593;
+}
+.hero {
+    position: relative;
+    height: 89vh;
+    padding-top: 40px;
+    z-index: 10;
+}
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+.hero-text p{
+    color:#fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic; 
+    font-weight: 400; 
+    max-width: 700px; 
+    margin: 0 auto; 
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.divider {
+    position: relative;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(249, 249, 249, 0.2); /* 50% opacity for the dividing line */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+.product-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-item a:hover {
+    background-color: #685757;
+}
+
+.about, .what-we-do {
+    padding: 60px 20px;
+    text-align: center;
+
+    color: white;
+}
+
+.about h2, .what-we-do h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.about h1{ /* Our values*/
+    text-align: center;
+    color: #1c2a39;
+    font-family: Poppins;
+    font-size: 45px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    font-weight: Bold;
+}
+.divider {
+    position: relative;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(215, 215, 215, 0.2); /* 50% opacity for the dividing line */
+}
+.divider1 {
+    position: relative;
+    bottom: 10;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2); /* 50% opacity for the dividing line */
+}
+
+.about p, .what-we-do p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.about-values {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: -20px;
+}
+
+.about-value-item {
+    flex: 1;
+    min-width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: transform 0.3s;
+}
+
+.about-value-item:hover {
+    transform: scale(1.05);
+}
+
+.about-value-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.about-value-item p {
+    font-size: 16px;
+    color: #666;
+}
+.stat-text {
+    width: 116px;
+    color: rgba(86, 93, 66, 1);
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 64px;
+    margin: 0 auto; /* Center text within its container */
+}
+.stat-item:nth-child(1) .stat-text:nth-child(1) {
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 1400px;
+    background-color: #BCBD93;
+}
+
+.stats > * {
+    flex: 1; /* Allow children to expand to fill space */
+}
+
+.stat-item {
+    margin: 0 20px;
+    top: 690px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.values {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /* Distributes the boxes evenly */
+    flex-wrap: wrap; /* Allows wrapping if screen size is too small */
+    align-items: center;
+    padding: 20px;
+    background-color: #333; /* Dark background */
+    border-radius: 10px;
+    max-width: 100%; /* Fits within the window width */
+    margin: 0 auto;
+}
+
+
+ .value-item {
+    flex: 0 1 calc(25% - 40px); /* Each box takes up 25% of the width minus the margins */
+    margin: 10px; /* Adds spacing between boxes */
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Slightly transparent white */
+    text-align: center;
+    transition: transform 0.3s, background-color 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    box-sizing: border-box; /* Ensures padding and border are included in the box size */
+}
+
+.value-item:hover {
+    transform: scale(1.05);
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly more opaque on hover */
+}
+
+.value-item img {
+    width: 40px; /* Image size */
+    height: 40px;
+    margin-bottom: 10px;
+    filter: brightness(1.2); /* Brightens the image slightly */
+}
+
+.value-item h3 {
+    font-size: 20px; /* Heading size */
+    color: #fff; /* White text */
+    margin-bottom: 10px;
+}
+
+.value-item p {
+    font-size: 14px; /* Paragraph text size */
+    color: #ccc; /* Light gray text */
+    margin: 0;
+}
+
+.transition{
+    position: relative; 
+    background-color: rgba(86,93,66,1);
+    border-radius: 15px;
+    margin-top: -50px; 
+    z-index: 5;  
+}
+.transition h2{
+    padding-top: 20px;
+    color:#fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: BOLD; 
+    font-weight: 400; 
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center;
+    padding-right: 40px;
+}
+.transition p{
+    padding-top: 20px;
+    color:#fff;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic; 
+    font-weight: 400; 
+    max-width: 600px;
+    padding-right: 30px; 
+    margin: 0 auto; 
+    text-align: center;
+    padding-bottom: 50px;
+  
+}
+.contact{
+    border-radius: 15px;
+    padding-top: 10px;
+  
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left-panel {
+    width: 40%;
+    background-image: url('/images/Contant_us.png'); /* Ensure this path is correct */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.left-panel h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.left-panel p {
+    font-size: 1.0rem;
+    margin-bottom: 30px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-item img {
+    width: 30px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.contact-details {
+    margin-left: 10px;
+}
+
+.contact-details h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.contact-details p {
+    margin: 5px 0;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.icon {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.div1 {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.right-panel {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.right-panel input,
+.right-panel textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.right-panel textarea {
+    height: 100px;
+    resize: none;
+}
+
+.right-panel .radio-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.right-panel .radio-group label {
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.right-panel button {
+    width: 150px;
+    padding: 15px;
+    background-color: #1c2a39;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.right-panel button:hover {
+    background-color: #2b3a4d;
+}
